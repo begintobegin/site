@@ -20,13 +20,13 @@ function counts(){
   if(seconds<10){
     document.getElementById('s').style.padding = '20px 40px'
   }
-  else if(menutes<10){
+   if(menutes<10){
     document.getElementById('m').style.padding = '20px 40px'
   }
-  else if(hours<10){
+   if(hours<10){
     document.getElementById('h').style.padding = '20px 40px'
   }
-  else if(days<10){
+   if(days<10){
     document.getElementById('d').style.padding = '20px 40px'
   }
   
